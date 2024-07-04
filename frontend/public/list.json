@@ -1,0 +1,502 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "The Enchanting Tales of Childhood",
+        "price": 100,
+        "description": "A collection of short stories that evoke nostalgia and wonder, perfect for readers of all ages.",
+        "author": "Aakash",
+        "category": "fiction",
+        "image": "https://example.com/image1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Adventure Tales",
+        "title": "Journey into the Unknown",
+        "price": 120,
+        "description": "Embark on thrilling adventures across uncharted lands and face challenges that test courage and wit.",
+        "author": "Samantha Wright",
+        "category": "adventure",
+        "image": "https://example.com/image2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mystery Unraveled",
+        "title": "The Puzzle of the Missing Artifact",
+        "price": 95,
+        "description": "Join detective Michael Black in a race against time to solve the mystery of a priceless artifact's disappearance.",
+        "author": "Michael Black",
+        "category": "mystery",
+        "image": "https://example.com/image3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Science Chronicles",
+        "title": "Exploring the Frontiers of Science",
+        "price": 110,
+        "description": "Discover groundbreaking scientific discoveries and the minds behind them in this fascinating chronicle.",
+        "author": "Emily Stone",
+        "category": "science",
+        "image": "https://example.com/image4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Fantasy World",
+        "title": "Realm of Magic and Myth",
+        "price": 105,
+        "description": "Immerse yourself in a world of magic, mythical creatures, and epic quests that defy imagination.",
+        "author": "Daniel Green",
+        "category": "fantasy",
+        "image": "https://example.com/image5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Biography of Great Minds",
+        "title": "Inspiring Biographies",
+        "price": 130,
+        "description": "Biographies of remarkable individuals who shaped history with their vision, courage, and determination.",
+        "author": "Jennifer Lee",
+        "category": "biography",
+        "image": "https://example.com/image6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Romantic Escapades",
+        "title": "Love and Romance",
+        "price": 115,
+        "description": "Explore tales of love, passion, and heartbreak set against picturesque landscapes and tumultuous times.",
+        "author": "Matthew Hughes",
+        "category": "romance",
+        "image": "https://example.com/image7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Thrilling Adventures",
+        "title": "Heart-Pounding Adventures",
+        "price": 125,
+        "description": "Brace yourself for adrenaline-pumping adventures filled with danger, intrigue, and unexpected twists.",
+        "author": "Sophia Clark",
+        "category": "adventure",
+        "image": "https://example.com/image8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Historical Insights",
+        "title": "Glimpses into the Past",
+        "price": 99,
+        "description": "Uncover the secrets of ancient civilizations, pivotal moments in history, and forgotten heroes.",
+        "author": "David Brown",
+        "category": "history",
+        "image": "https://example.com/image9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Political Thriller",
+        "title": "Intrigue and Conspiracy",
+        "price": 112,
+        "description": "Navigate the treacherous waters of political power plays, corruption, and deadly secrets in this gripping thriller.",
+        "author": "Rachel Taylor",
+        "category": "thriller",
+        "image": "https://example.com/image10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Sci-Fi Wonders",
+        "title": "Visions of the Future",
+        "price": 108,
+        "description": "Dive into futuristic worlds where technology, humanity, and the unknown collide in mind-bending ways.",
+        "author": "John Carter",
+        "category": "science fiction",
+        "image": "https://example.com/image11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Cooking Adventures",
+        "title": "Culinary Delights",
+        "price": 92,
+        "description": "Embark on a gastronomic journey filled with flavors, recipes, and tales from kitchens around the world.",
+        "author": "Emma White",
+        "category": "cooking",
+        "image": "https://example.com/image12.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Self-Care Handbook",
+        "title": "Nurture Your Mind and Body",
+        "price": 0,
+        "description": "Explore self-care practices that promote mental and physical well-being, fostering a balanced and fulfilling lifestyle.",
+        "author": "Sophia Roberts",
+        "category": "free",
+        "image": "https://www.amazon.com/images/I/81HCj59R2kL._SY342_.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Spiritual Enlightenment",
+        "title": "Journey to Inner Peace",
+        "price": 95,
+        "description": "Find solace, wisdom, and spiritual growth through timeless teachings and profound experiences.",
+        "author": "Sophie Anderson",
+        "category": "spirituality",
+        "image": "https://example.com/image14.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Psychological Thriller",
+        "title": "Mind Games",
+        "price": 110,
+        "description": "Delve into the complexities of the human mind, where motives are murky and truths are elusive.",
+        "author": "Mark Johnson",
+        "category": "thriller",
+        "image": "https://example.com/image15.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Poetry Collection",
+        "title": "Verses of the Heart",
+        "price": 85,
+        "description": "Celebrate the beauty of language and emotions through evocative poetry that speaks to the soul.",
+        "author": "Lily Moore",
+        "category": "poetry",
+        "image": "https://example.com/image16.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Business Mastery",
+        "title": "Strategies for Success",
+        "price": 125,
+        "description": "Learn from industry titans and visionary leaders as they share their insights and strategies for achieving business excellence.",
+        "author": "Alex Turner",
+        "category": "business",
+        "image": "https://example.com/image17.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Travel Chronicles",
+        "title": "Wanderlust Adventures",
+        "price": 105,
+        "description": "Embark on a journey across continents, exploring cultures, landscapes, and unforgettable experiences.",
+        "author": "Ella Roberts",
+        "category": "travel",
+        "image": "https://example.com/image18.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Self-Help Handbook",
+        "title": "The Path to Personal Growth",
+        "price": 95,
+        "description": "Discover practical tools and transformative insights to empower yourself and navigate life's challenges.",
+        "author": "Peter Davis",
+        "category": "self-help",
+        "image": "https://example.com/image19.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Environmental Awareness",
+        "title": "Protecting Our Planet",
+        "price": 110,
+        "description": "Explore pressing environmental issues and discover actionable solutions to create a sustainable future.",
+        "author": "Sarah Green",
+        "category": "environment",
+        "image": "https://example.com/image20.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Health and Wellness",
+        "title": "The Pursuit of Wellbeing",
+        "price": 100,
+        "description": "Achieve optimal health and wellness through holistic approaches, lifestyle changes, and mindful practices.",
+        "author": "Lucas Scott",
+        "category": "health",
+        "image": "https://example.com/image21.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Essential Guide to Productivity",
+        "title": "Boost Your Efficiency",
+        "price": 0,
+        "description": "Discover practical tips, tools, and strategies to enhance productivity and achieve your goals, whether at work or in daily life.",
+        "author": "Anna Smith",
+        "category": "free",
+        "image": "https://example.com/image22.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Financial Freedom",
+        "title": "The Road to Financial Independence",
+        "price": 120,
+        "description": "Master the principles of investing, saving, and wealth management to achieve financial freedom and security.",
+        "author": "Ryan Johnson",
+        "category": "finance",
+        "image": "https://example.com/image23.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Parenting Guide",
+        "title": "Navigating Parenthood",
+        "price": 90,
+        "description": "Empower yourself with practical advice, insights, and strategies for navigating the joys and challenges of parenthood.",
+        "author": "Emma Wilson",
+        "category": "parenting",
+        "image": "https://example.com/image24.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Sports Legends",
+        "title": "Tales of Sporting Greatness",
+        "price": 105,
+        "description": "Celebrate the triumphs and tribulations of legendary athletes who defined eras and inspired millions.",
+        "author": "Jack Roberts",
+        "category": "sports",
+        "image": "https://example.com/image25.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Fashion Chronicles",
+        "title": "Style through the Ages",
+        "price": 95,
+        "description": "Explore the evolution of fashion, from iconic trends to groundbreaking designers who shaped the industry.",
+        "author": "Sophie Evans",
+        "category": "fashion",
+        "image": "https://example.com/image26.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Humor and Satire",
+        "title": "Laughter is the Best Medicine",
+        "price": 85,
+        "description": "Indulge in humorous anecdotes, witty observations, and satirical tales that bring joy and laughter to every page.",
+        "author": "Chris Adams",
+        "category": "humor",
+        "image": "https://example.com/image27.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Art of Meditation",
+        "title": "Finding Inner Peace",
+        "price": 110,
+        "description": "Discover the transformative power of meditation and mindfulness practices for cultivating peace and clarity in daily life.",
+        "author": "Eva White",
+        "category": "spirituality",
+        "image": "https://example.com/image28.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Legal Thriller",
+        "title": "Courtroom Drama",
+        "price": 115,
+        "description": "Enter the world of legal battles, moral dilemmas, and high-stakes courtroom drama that will keep you on edge.",
+        "author": "Rachel Brooks",
+        "category": "thriller",
+        "image": "https://example.com/image29.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Beginner's Guide to Painting",
+        "title": "Unlock Your Inner Artist",
+        "price": 0,
+        "description": "Embark on a creative journey with painting techniques, tips, and inspiration to express yourself through art.",
+        "author": "Olivia Green",
+        "category": "free",
+        "image": "https://example.com/image30.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Culinary Adventures",
+        "title": "Gourmet Escapades",
+        "price": 120,
+        "description": "Embark on culinary adventures around the world, discovering flavors, traditions, and exquisite dishes.",
+        "author": "Sophia Roberts",
+        "category": "cooking",
+        "image": "https://example.com/image31.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Educational Insights",
+        "title": "Learn, Grow, Succeed",
+        "price": 110,
+        "description": "Explore innovative educational practices, insights, and strategies to foster learning and growth in every student.",
+        "author": "Andrew Green",
+        "category": "education",
+        "image": "https://example.com/image32.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Space Exploration",
+        "title": "Journey to the Cosmos",
+        "price": 125,
+        "description": "Embark on an awe-inspiring journey through the cosmos, exploring the wonders of space and the universe.",
+        "author": "Nathan Black",
+        "category": "science",
+        "image": "https://example.com/image33.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Leadership Mastery",
+        "title": "Leading with Purpose",
+        "price": 130,
+        "description": "Unlock the secrets to effective leadership, inspire teams, and drive organizational success with purpose and vision.",
+        "author": "Laura Carter",
+        "category": "business",
+        "image": "https://example.com/image34.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Music Legends",
+        "title": "Iconic Voices",
+        "price": 95,
+        "description": "Celebrate the musical journey of legendary artists whose voices and melodies shaped generations and defined eras.",
+        "author": "Michael Johnson",
+        "category": "music",
+        "image": "https://example.com/image35.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Introduction to Coding",
+        "title": "Learn the Basics of Programming",
+        "price": 0,
+        "description": "Begin your journey into the world of coding with fundamental concepts and hands-on exercises to build your skills.",
+        "author": "Michael Brown",
+        "category": "free",
+        "image": "https://example.com/image36.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Art of Negotiation",
+        "title": "Mastering the Deal",
+        "price": 115,
+        "description": "Learn the art of negotiation, effective communication, and strategic thinking to achieve win-win outcomes.",
+        "author": "David White",
+        "category": "business",
+        "image": "https://example.com/image37.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Animal Kingdom",
+        "title": "Wild Encounters",
+        "price": 100,
+        "description": "Explore the wonders of the animal kingdom, from majestic creatures to their habitats and extraordinary behaviors.",
+        "author": "Sophia Adams",
+        "category": "nature",
+        "image": "https://example.com/image38.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Fashion Icons",
+        "title": "Style Icons of the Century",
+        "price": 110,
+        "description": "Discover the lives, styles, and influences of iconic fashion figures who defined trends and inspired generations.",
+        "author": "Eva Evans",
+        "category": "fashion",
+        "image": "https://example.com/image39.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Artistic Expression",
+        "title": "Creative Visions",
+        "price": 120,
+        "description": "Celebrate artistic expression through diverse mediums, innovative techniques, and visionary artists.",
+        "author": "Oliver White",
+        "category": "art",
+        "image": "https://example.com/image40.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Digital Revolution",
+        "title": "Shaping the Future",
+        "price": 115,
+        "description": "Explore the digital revolution, from disruptive technologies to their impact on society, business, and everyday life.",
+        "author": "Lucy Roberts",
+        "category": "technology",
+        "image": "https://example.com/image41.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Mindfulness Practices",
+        "title": "Living in the Present",
+        "price": 95,
+        "description": "Discover mindfulness practices and techniques for cultivating presence, peace, and resilience in daily life.",
+        "author": "Daniel Green",
+        "category": "spirituality",
+        "image": "https://example.com/image42.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Legal Insights",
+        "title": "Navigating Legal Waters",
+        "price": 105,
+        "description": "Gain insights into legal principles, landmark cases, and the evolving landscape of law in today's world.",
+        "author": "Rachel Wilson",
+        "category": "law",
+        "image": "https://example.com/image43.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Urban Exploration",
+        "title": "Cityscapes and Stories",
+        "price": 100,
+        "description": "Explore the vibrant tapestry of urban life, from bustling streets to hidden gems and untold stories.",
+        "author": "Jack Brown",
+        "category": "travel",
+        "image": "https://example.com/image44.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Healthy Living",
+        "title": "Wellness for Life",
+        "price": 110,
+        "description": "Embrace a holistic approach to health and wellness, integrating nutrition, fitness, and mindfulness for a balanced life.",
+        "author": "Sophia Turner",
+        "category": "health",
+        "image": "https://example.com/image45.jpg"
+    },
+    {
+        "id": 46,
+        "name": "Philosophical Musings",
+        "title": "Quest for Wisdom",
+        "price": 120,
+        "description": "Explore profound philosophical questions, perspectives, and ideas that shape our understanding of existence and truth.",
+        "author": "John Green",
+        "category": "philosophy",
+        "image": "https://example.com/image46.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Space Odyssey",
+        "title": "Journey Beyond the Stars",
+        "price": 125,
+        "description": "Embark on an epic odyssey through the cosmos, exploring the mysteries of space, time, and celestial wonders.",
+        "author": "Emily White",
+        "category": "science",
+        "image": "https://example.com/image47.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Literary Classics",
+        "title": "Timeless Tales",
+        "price": 100,
+        "description": "Discover literary classics that have stood the test of time, enchanting readers with timeless tales and unforgettable characters.",
+        "author": "Sophie Brown",
+        "category": "fiction",
+        "image": "https://example.com/image48.jpg"
+    },
+    {
+        "id": 49,
+        "name": "Digital Marketing",
+        "title": "Mastering Online Presence",
+        "price": 115,
+        "description": "Gain insights into digital marketing strategies, tactics, and tools to enhance online presence and drive business growth.",
+        "author": "Mark Evans",
+        "category": "business",
+        "image": "https://example.com/image49.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Mindfulness for Beginners",
+        "title": "Embrace the Present Moment",
+        "price": 0,
+        "description": "Learn mindfulness techniques and practices to cultivate awareness, reduce stress, and enhance your overall quality of life.",
+        "author": "Emily Davis",
+        "category": "free",
+        "image": "https://example.com/image50.jpg"
+    }
+]
