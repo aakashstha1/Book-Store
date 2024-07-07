@@ -2,34 +2,7 @@ import list from "../list.json";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-function Cards({ item }) {
-  return (
-    <div className="ml-1 my-5 ">
-      <div className="card bg-base-100 mb-4 mr-4 shadow-md">
-        <figure>
-          <img
-            src={item.image}
-            alt={item.title}
-            className="w-full h-48 object-contain"
-          />
-        </figure>
-        <div className="card-body">
-          <h12 className="card-title text-lg font-semibold">
-            {item.title}
-            <div className="badge badge-secondary">FREE</div>
-          </h12>
-
-          <div className="card-actions flex justify-between">
-            <div className="badge badge-outline">${item.price}</div>
-            <div className="btn px-8 cursor-pointer hover:bg-secondary hover:text-white">
-              Buy
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+import Cards from "./Cards";
 
 function Freebook() {
   var settings = {
