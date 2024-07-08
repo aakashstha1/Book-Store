@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Login from "./Login";
+import Register from "./Register";
 
 function Navbar() {
   const [theme, setTheme] = useState(
@@ -151,9 +153,24 @@ function Navbar() {
             </svg>
           </label>
           <div>
-            <a className="bg-black text-white px-3 py-2 rounded-md cursor-pointer">
+            <a
+              className="bg-black text-white px-3 py-2 rounded-md cursor-pointer"
+              onClick={() => document.getElementById("my_modal_3").showModal()}
+            >
               Login
             </a>
+            <Login />
+          </div>
+          <div>
+            <a
+              className="bg-black text-white px-3 py-2 rounded-md cursor-pointer"
+              onClick={() =>
+                document.getElementById("register_modal").showModal()
+              }
+            >
+              Register
+            </a>
+            <Register />
           </div>
         </div>
       </div>
