@@ -7,7 +7,7 @@
         "description": "A collection of short stories that evoke nostalgia and wonder, perfect for readers of all ages.",
         "author": "Aakash",
         "category": "fiction",
-        "image": "https://example.com/image1.jpg"
+        "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "description": "Embark on thrilling adventures across uncharted lands and face challenges that test courage and wit.",
         "author": "Samantha Wright",
         "category": "adventure",
-        "image": "https://example.com/image2.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "description": "Join detective Michael Black in a race against time to solve the mystery of a priceless artifact's disappearance.",
         "author": "Michael Black",
         "category": "mystery",
-        "image": "https://example.com/image3.jpg"
+        "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "description": "Discover groundbreaking scientific discoveries and the minds behind them in this fascinating chronicle.",
         "author": "Emily Stone",
         "category": "science",
-        "image": "https://example.com/image4.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "description": "Immerse yourself in a world of magic, mythical creatures, and epic quests that defy imagination.",
         "author": "Daniel Green",
         "category": "fantasy",
-        "image": "https://example.com/image5.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "description": "Biographies of remarkable individuals who shaped history with their vision, courage, and determination.",
         "author": "Jennifer Lee",
         "category": "biography",
-        "image": "https://example.com/image6.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "description": "Explore tales of love, passion, and heartbreak set against picturesque landscapes and tumultuous times.",
         "author": "Matthew Hughes",
         "category": "romance",
-        "image": "https://example.com/image7.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "description": "Brace yourself for adrenaline-pumping adventures filled with danger, intrigue, and unexpected twists.",
         "author": "Sophia Clark",
         "category": "adventure",
-        "image": "https://example.com/image8.jpg"
+        "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "description": "Uncover the secrets of ancient civilizations, pivotal moments in history, and forgotten heroes.",
         "author": "David Brown",
         "category": "history",
-        "image": "https://example.com/image9.jpg"
+        "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "description": "Navigate the treacherous waters of political power plays, corruption, and deadly secrets in this gripping thriller.",
         "author": "Rachel Taylor",
         "category": "thriller",
-        "image": "https://example.com/image10.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
         "description": "Dive into futuristic worlds where technology, humanity, and the unknown collide in mind-bending ways.",
         "author": "John Carter",
         "category": "science fiction",
-        "image": "https://example.com/image11.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
         "description": "Embark on a gastronomic journey filled with flavors, recipes, and tales from kitchens around the world.",
         "author": "Emma White",
         "category": "cooking",
-        "image": "https://example.com/image12.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
         "description": "Explore self-care practices that promote mental and physical well-being, fostering a balanced and fulfilling lifestyle.",
         "author": "Sophia Roberts",
         "category": "free",
-        "image": "https://www.amazon.com/images/I/81HCj59R2kL._SY342_.jpg"
+        "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 14,
@@ -217,7 +217,7 @@
         "description": "Discover practical tips, tools, and strategies to enhance productivity and achieve your goals, whether at work or in daily life.",
         "author": "Anna Smith",
         "category": "free",
-        "image": "https://example.com/image22.jpg"
+       "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 23,
@@ -297,7 +297,7 @@
         "description": "Embark on a creative journey with painting techniques, tips, and inspiration to express yourself through art.",
         "author": "Olivia Green",
         "category": "free",
-        "image": "https://example.com/image30.jpg"
+     "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 31,
@@ -357,7 +357,7 @@
         "description": "Begin your journey into the world of coding with fundamental concepts and hands-on exercises to build your skills.",
         "author": "Michael Brown",
         "category": "free",
-        "image": "https://example.com/image36.jpg"
+      "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     },
     {
         "id": 37,
@@ -497,6 +497,6 @@
         "description": "Learn mindfulness techniques and practices to cultivate awareness, reduce stress, and enhance your overall quality of life.",
         "author": "Emily Davis",
         "category": "free",
-        "image": "https://example.com/image50.jpg"
+      "image": "https://clipart.info/images/ccovers/150369121211-brown-book-png-image-image.png"
     }
 ]
