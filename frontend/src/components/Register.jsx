@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 function Register() {
   const {
@@ -8,7 +9,25 @@ function Register() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    const userInfo = {
+      name: data.name,
+      email: data.email,
+      password: data.password,
+    };
+    await axios
+      .post("http://localhost:4001/user/register", userInfo)
+      .then((res) => {
+        console.log(res.data);
+        if (res.data) {
+          alert("Register Succesfull");
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+        alert("Error:" + err);
+      });
+  };
 
   return (
     <div>
@@ -24,6 +43,15 @@ function Register() {
             </Link>
             <h3 className="font-bold text-lg">Register</h3>
             <div className="mt-4 space-y-1 flex flex-col">
+              <span>Name</span>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                className="w-80 px-3 py-1 border outline-none rounded-md"
+                {...register("name", { required: true })}
+              />
+              {errors.email && <p className="text-red-500">Name is required</p>}
+              <br />
               <span>Email</span>
               <input
                 type="email"
@@ -44,17 +72,6 @@ function Register() {
               />
               {errors.password && (
                 <p className="text-red-500">Password is required</p>
-              )}
-              <br />
-              <span>Confirm Password</span>
-              <input
-                type="password"
-                placeholder="Confirm your password"
-                className="w-80 px-3 py-1 border outline-none rounded-md"
-                {...register("confirmPassword", { required: true })}
-              />
-              {errors.confirmPassword && (
-                <p className="text-red-500">Confirm password is required</p>
               )}
             </div>
             <div className="mt-4 flex justify-around">
