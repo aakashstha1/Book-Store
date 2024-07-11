@@ -1,5 +1,7 @@
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 function Login() {
   const {
@@ -7,9 +9,34 @@ function Login() {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  
-  const onSubmit = (data) => console.log(data);
 
+  const onSubmit = async (data) => {
+    const userInfo = {
+      email: data.email,
+      password: data.password,
+    };
+    await axios
+      .post("http://localhost:4001/user/login", userInfo)
+      .then((res) => {
+        console.log(res.data);
+        if (res.data) {
+          toast.success("Login Successfully!");
+          document.getElementById("my_modal_3").close();
+
+          setTimeout(() => {
+            localStorage.setItem("Users", JSON.stringify(res.data.user));
+            window.location.reload();
+          }, 1000);
+        }
+      })
+      .catch((err) => {
+        if (err.response) {
+          console.log(err);
+          toast.error("Error:" + err.response.data.message);
+          setTimeout(() => {}, 2000);
+        }
+      });
+  };
   return (
     <div>
       <dialog id="my_modal_3" className="modal">
@@ -31,7 +58,9 @@ function Login() {
                 className="w-80 px-3 py-1 border outline-none rounded-md"
                 {...register("email", { required: true })}
               />
-              {errors.email && <p className="text-red-500">Email is required</p>}
+              {errors.email && (
+                <p className="text-red-500">Email is required</p>
+              )}
               <br />
               <span>Password</span>
               <input
@@ -40,10 +69,15 @@ function Login() {
                 className="w-80 px-3 py-1 border outline-none rounded-md"
                 {...register("password", { required: true })}
               />
-              {errors.password && <p className="text-red-500">Password is required</p>}
+              {errors.password && (
+                <p className="text-red-500">Password is required</p>
+              )}
             </div>
             <div className="mt-4 flex justify-around">
-              <button type="submit" className="bg-primary text-white rounded-md py-2 px-3">
+              <button
+                type="submit"
+                className="bg-primary text-white rounded-md py-2 px-3"
+              >
                 Login
               </button>
               <p>

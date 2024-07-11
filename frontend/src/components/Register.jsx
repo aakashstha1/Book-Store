@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import toast from "react-hot-toast";
 
 function Register() {
   const {
@@ -20,12 +21,17 @@ function Register() {
       .then((res) => {
         console.log(res.data);
         if (res.data) {
-          alert("Register Succesfull");
+          toast.success("Register Successfully!");
+          document.getElementById("register_modal").close();
         }
+        localStorage.setItem("Users", JSON.stringify(res.data.user));
       })
+
       .catch((err) => {
-        console.log(err);
-        alert("Error:" + err);
+        if (err.response) {
+          console.log(err);
+          toast.error("Error:" + err.response.data.message);
+        }
       });
   };
 

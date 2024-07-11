@@ -15,7 +15,14 @@ export const register = async (req, res) => {
       password: hashedPassword,
     });
     await createdUser.save();
-    res.status(201).json({ message: "User registered successfully" });
+    res.status(201).json({
+      message: "User registered successfully",
+      user: {
+        _id: createdUser._id,
+        name: createdUser.name,
+        email: createdUser.email,
+      },
+    });
   } catch (error) {
     console.log("Error:" + error.message);
     res.status(500).json({ message: "Internal server error" });
